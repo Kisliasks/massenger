@@ -22,7 +22,7 @@ setInterval(function(){
 
 function getMessegesFromUser() {
 
-    $.get("messeges_for_me.php?messege=result", function(html){
+    $.get("messages_for_me.php?messege=result", function(html){
 
         $(".messege_from_user").html(html);
 
@@ -41,7 +41,7 @@ setInterval(function(){
 function getAllMessegesInWindow() {
 
 
-    $.get("all_messeges_in_window.php?all_messeges=result", function(html){
+    $.get("all_messages_in_window.php?all_messeges=result", function(html){
 
         $(".all_messeges_in_window").html(html);
 
